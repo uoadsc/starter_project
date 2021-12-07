@@ -1,0 +1,15 @@
+channels:
+- anaconda
+- conda-forge
+dependencies:
+- python=3.8.5
+- pip
+- pip:
+  - sklearn-pandas
+  - nbdev
+  - fastcore
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+name: starter_env
